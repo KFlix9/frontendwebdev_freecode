@@ -1,4 +1,4 @@
-// Challenge #1
+// CHALLENGE #1
 
 // #1
 const myBoolean = true;
@@ -38,3 +38,17 @@ console.log(myObject.sumProperty);
 
 //10
 console.log(myObject.firstProperty[1]);
+
+
+// CHALLENGE #2
+// const someNumber = 20; ....         //space was missing
+
+
+// CHALLENGE #3
+// this is added to string 2040
+
+// CHALLENGE #4
+// properties are seperated with ; instead of ,
+
+// CHALLENGE #5
+// Array is indexed out of range
