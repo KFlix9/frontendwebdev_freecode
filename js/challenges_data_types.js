@@ -46,6 +46,12 @@ console.log(myObject.firstProperty[1]);
 
 // CHALLENGE #3
 // this is added to string 2040
+const var1 = 20; 
+const var2 = '40'; 
+
+const resultVariable = var1 + var2; 
+
+console.log(resultVariable); 
 
 // CHALLENGE #4
 // properties are seperated with ; instead of ,
