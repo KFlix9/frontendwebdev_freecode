@@ -67,5 +67,12 @@ console.log(myObj === anotherArray);         //false
 // numeric comparison
 // as known: > < >= <= etc
 
-//teneray
-const tenResult = 20 === 20 ? 'values match' : 'values do not match'; 
+// terneray
+const tenResult = 20 === 20 ? 'values match' : 'values do not match';
+// is equally
+let condResultVariable
+if(20 === 20) {
+    condResultVariable = 'values match';
+} else {
+    condResultVariable = 'values do not match'; 
+}
