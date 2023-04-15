@@ -38,6 +38,3 @@ const variable20AsNumber = 20;
 console.log(variable10AsString + variable20AsNumber); //prints: '1020'
 // use as numbers
 console.log(Number(variable10AsString) + variable20AsNumber);
-
-STOPPED HERE:
-https://youtu.be/zJSY8tbf_ys?t=5428

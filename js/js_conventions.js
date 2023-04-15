@@ -13,4 +13,3 @@ const YourFirstVariable = 10;       //pascalCased
 let q = 20;                     // what is q supposed to be?
 let propertyTaxRateFactor = 20; // better
 
-const firstVariable = 'JS gives you superpowers'; 

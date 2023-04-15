@@ -64,3 +64,8 @@ const anotherObject = {
 console.log(myObj === anotherArray);         //false 
 // >> you cannot compare objects or arrays this way, often used util lib: lodash
 
+// numeric comparison
+// as known: > < >= <= etc
+
+//teneray
+const tenResult = 20 === 20 ? 'values match' : 'values do not match'; 
