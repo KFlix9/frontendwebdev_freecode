@@ -62,7 +62,7 @@ const anotherObject = {
 }; 
 
 console.log(myObj === anotherArray);         //false 
-// >> you cannot compare objects or arrays this way, often used util lib: lodash
+// you cannot compare objects or arrays this way, often used util lib: lodash
 
 // numeric comparison
 // as known: > < >= <= etc
@@ -76,3 +76,9 @@ if(20 === 20) {
 } else {
     condResultVariable = 'values do not match'; 
 }
+
+// logical
+// as known: && || !
+
+// complex example
+const complexResult = !(((40 / 20) === 2 && true) || ('yes' === 'no'));
