@@ -20,3 +20,15 @@ const blogPosts = [
         content: 'this stuff needs some high key accuracy' 
     }
 ]
+
+for (let i = 0; i < blogPosts.length; i++) {
+    const postTitle = blogPosts[i].title;
+    const postAuthor = blogPosts[i].author;
+    const postDate = blogPosts[i].publishDate;
+    const postContent = blogPosts[i].content;
+
+    console.log(postTitle);
+    console.log(postAuthor);
+    console.log(postDate);
+    console.log(postContent);
+}
