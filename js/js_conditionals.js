@@ -5,6 +5,7 @@ if ('some string' === 'another string') {
 } else {
     console.log('the strings are not equal')
 }
+
 // basic structure we always have: if() {} else {}
 
 // overview
@@ -56,5 +57,6 @@ switch (randomColor) {
        console.log('the color is blue');
         break;
     default:
+        console.log('no color is found');
         break;
 }
