@@ -22,4 +22,3 @@ function someFunction(param1, param2) {
 
 // invoke function
 someFunction(20, 'some string'); 
-
