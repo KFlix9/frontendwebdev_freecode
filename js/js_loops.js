@@ -32,3 +32,16 @@ for (let i = 0; i < blogPosts.length; i++) {
     console.log(postDate);
     console.log(postContent);
 }
+
+// standard loop structure 
+for (let i = 0; i < 100; i++) {    
+
+}
+
+const arr = ['lsadfj;lksjdf', 'asdflkjsdf', '234oinsdf', 34, 356, 123]
+
+for (let i = 0; i < arr.length; i++) {
+    if( typeof arr[i] === 'number') {
+        console.log(arr[i]);
+    };
+}
