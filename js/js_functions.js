@@ -66,3 +66,10 @@ let someReturnFunction = () => {
 }
 
 console.log(someReturnFunction()); 
+
+
+//
+const myObj = {
+    prop1: 50,
+    prop2: aFunctionWithReturn
+}
