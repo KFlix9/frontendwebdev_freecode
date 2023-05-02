@@ -104,3 +104,27 @@ function isDivisble(n, x, y) {
 }
 
 console.log(isDivisble(3,1,3));
+
+
+// #8 return negative, even if number is negative 
+
+function makeNegative(num) {
+    return num < 0 ? num : -1 * num;
+}
+
+console.log(makeNegative(-1.2));
+console.log(makeNegative(12));
+console.log(makeNegative(1.2));
+
+
+// #9 smallest integer finder
+class SmallestIntegerFinder {
+    findSmallInteger(args) { 
+        return Math.min(...args); 
+    }
+}
+
+const finder = new SmallestIntegerFinder(); 
+console.log(finder.findSmallInteger([12, 1, -100, 34, -888]));
+
+// continue here: https://youtu.be/zJSY8tbf_ys?t=17568
