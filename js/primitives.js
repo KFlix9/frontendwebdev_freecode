@@ -11,4 +11,3 @@ console.log(string == stringOther);
 
 // this actually works - wrapping in js object
 console.log('some string'.toUpperCase());
-
