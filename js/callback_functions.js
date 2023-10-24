@@ -5,7 +5,7 @@ function myCallBack(someNumber) {
     return someNumber * 2;
 }
 
-function mainFunction(randonNumber, shouldCall, callback) {
+function mainFunction(randomNumber, shouldCall, callback) {
      let result = randomNumber;
 
      if(shouldCall) {
@@ -32,7 +32,7 @@ mainFunction(20, true, num => num * 2);
 
 // why do we need callback - reusability / asynchronous programming
 
-// be the example of map
+// by the example of map
 const myArray = [2, 4, 6]; 
 
 function myCustomMapOperationCallback(itemFromArray) {
