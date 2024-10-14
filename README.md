@@ -1,4 +1,2 @@
-# FCCFrontEndWebDevBootcamp
-My repo for Frontend Web Development Bootcamp Course (JavaScript, HTML, CSS)
-
-This is a new text.
+# Front End Web Development Tutorial - Free Code Camp
+freecodecamp.org front end web dev tutorial
